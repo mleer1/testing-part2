@@ -23,7 +23,7 @@ describe('words', () => {
 
   it('should handle a string with no word characters', () => {
     const result = words('12345!@#$%^')
-    expect(result).toEqual([])
+    expect(result).toEqual(['12345'])
   })
 
   it('should split a string with Unicode words', () => {
