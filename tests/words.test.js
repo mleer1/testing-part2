@@ -1,4 +1,4 @@
-import words from './src/words'
+import words from '../src/words'
 
 describe('words', () => {
   it('should split a string into an array of words using default pattern', () => {

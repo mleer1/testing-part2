@@ -1,4 +1,4 @@
-import toString from './src/toString.js';
+import toString from '../src/toString.js'
 
 describe('toString function', () => {
   it('should return the input string as the same', () => {
@@ -18,18 +18,23 @@ describe('toString function', () => {
   })
 
   it('should recursively convert matrix to string', () => {
-    expect(toString([[1, 2], [3, 4]])).toBe('1,2,3,4')
+    expect(
+      toString([
+        [1, 2],
+        [3, 4],
+      ])
+    ).toBe('1,2,3,4')
   })
 
   it('should convert symbols to strings', () => {
-    const sym = Symbol('test');
+    const sym = Symbol('test')
     expect(toString(sym)).toBe(sym.toString())
   })
 
   it('should convert numbers to string', () => {
     expect(toString(42)).toBe('42')
   })
-  
+
   it('should convert bool to string', () => {
     expect(toString(true)).toBe('true')
   })

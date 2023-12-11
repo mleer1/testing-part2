@@ -1,4 +1,4 @@
-import countBy from './src/countBy'
+import countBy from '../src/countBy'
 
 describe('countBy', () => {
   it('should count by a boolean iteratee for an array of objects', () => {

@@ -1,4 +1,4 @@
-import filter from './src/filter'
+import filter from '../src/filter'
 
 describe('filter function', () => {
   it('filters elements based on the provided predicate', () => {

@@ -1,4 +1,4 @@
-import toNumber from './src/toNumber'
+import toNumber from '../src/toNumber'
 
 describe('toNumber', () => {
   it('should convert a number to itself', () => {

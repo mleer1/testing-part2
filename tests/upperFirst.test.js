@@ -1,4 +1,4 @@
-import upperFirst from './src/upperFirst'
+import upperFirst from '../src/upperFirst'
 
 describe('upperFirst', () => {
   it('should convert the first character of a lowercase string to uppercase', () => {
